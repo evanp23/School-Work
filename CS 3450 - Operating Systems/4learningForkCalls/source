@@ -1,0 +1,7 @@
+What is the difference between user mode and kernel mode?
+
+User mode is restricted from accessing hardware directly. This is where all user applications are executed. The
+kernel mode has direct access to hardware and maintains control over all resources and the system itself. The core
+elements of the operating system are part of the kernel mode.
+
+These two modes correspond to the theory of protection rings for an operating system.

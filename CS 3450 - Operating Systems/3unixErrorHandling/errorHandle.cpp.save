@@ -1,0 +1,19 @@
+\#include <iostream>
+#include <fcntl.h>
+#include <errno.h>
+
+using namespace std;
+
+int main(){
+
+	int fd;
+
+	fd = system("rmdir nonexist"){
+	if(fd == -1){
+		cout<<"error = " << errno << endl;
+
+	}
+
+	exit(0);
+
+}
